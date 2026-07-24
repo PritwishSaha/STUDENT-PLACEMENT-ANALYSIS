@@ -1,67 +1,128 @@
-## 📊 Visualizations
+## 📊 Data Visualization
 
-The project includes multiple exploratory data analysis (EDA) visualizations to identify trends, relationships, and patterns in college data.
+After cleaning the dataset in **Google Colab**, several visualizations were created using **Matplotlib** to uncover patterns, trends, and relationships in the college dataset.
 
-<p align="center">
-  <img src="Screenshot%202026-07-19%20024859.png" alt="College Data Analysis Visualizations" width="100%">
-</p>
-
-### 📈 Included Visualizations
-
-| Visualization | Description |
-|---------------|-------------|
-| 🎓 **Private vs Public Colleges** | Compares the distribution of private and public colleges. |
-### Private vs Public Colleges
-<p align="center">
-  <img src="img/Private vs Public Colleges.png" width="80%">
-</p>
-| 💰 **Average Tuition by College Type** | Shows the average out-of-state tuition for private and public colleges. |
-### Average Tuition by College Type
-<p align="center">
-  <img src="img/Average Tuition by College Type." width="80%">
-</p>
-| 📚 **Enrollment Distribution** | Displays the distribution of student enrollments across colleges. |
-### Enrollment Distribution
-<p align="center">
-  <img src="img/Enrollment Distribution.png" width="80%">
-</p>
-| 📉 **Student-Faculty Ratio** | Examines the variation in student-to-faculty ratios among colleges. |
-### Student-Faculty Ratio
-<p align="center">
-  <img src="img/Student Faculty Ratio.png" width="80%">
-</p>
-| 🏆 **Top 10% Students vs Graduation Rate** | Analyzes the relationship between academically strong students and graduation rates. |
-### Top 10% Students vs Graduation Rate
-<p align="center">
-  <img src="img/Top 10% Students vs Graduation Rate.png" width="80%">
-</p>
-| 🎯 **Educational Expenditure vs Graduation Rate** | Explores how institutional spending influences graduation rates. |
-### Educational Expenditure vs Graduation Rate
-<p align="center">
-  <img src="img/Educational Expenditure vs Gradu" width="80%">
-</p>
-| 🎓 **Graduation Rate Distribution** | Shows how graduation rates are distributed across colleges. |
-### Graduation Rate Distribution
-<p align="center">
-  <img src="img/Graduation Rate Distribution.png" width="80%">
-</p>
-| 💵 **Distribution of Out-of-State Tuition** | Visualizes the spread of tuition fees charged to out-of-state students. |
-### Distribution of Out-of-State Tuition
-<p align="center">
-  <img src="img/Distribution of Out-of-State Tuition.png" width="80%">
-</p>
-
-| 🔥 **Correlation Heatmap** | Displays correlations among numerical features to identify significant relationships. |
-### Correlation Heatmap
-<p align="center">
-  <img src="img/Correlation Heatmap.png" width="80%">
-</p>
 ---
 
-### 📌 Key Insights
+### 🎓 Private vs Public Colleges
 
-- Private colleges generally have higher tuition fees than public colleges.
-- Institutions with higher educational expenditure tend to achieve better graduation rates.
-- Graduation rates are positively associated with the percentage of top-performing students.
-- Student-faculty ratio varies considerably across institutions and may influence academic outcomes.
-- Correlation analysis reveals strong relationships between tuition, expenditure, and graduation rate.
+**Description:** Compares the distribution of private and public colleges in the dataset.
+
+<p align="center">
+  <img src="img/Private vs Public Colleges.png" alt="Private vs Public Colleges" width="80%">
+</p>
+
+---
+
+### 💰 Average Tuition by College Type
+
+**Description:** Shows the average out-of-state tuition for private and public colleges.
+
+<p align="center">
+  <img src="img/Average Tuition by College Type.png" alt="Average Tuition by College Type" width="80%">
+</p>
+
+---
+
+### 📚 Enrollment Distribution
+
+**Description:** Displays the distribution of student enrollments across colleges.
+
+<p align="center">
+  <img src="img/Enrollment Distribution.png" alt="Enrollment Distribution" width="80%">
+</p>
+
+---
+
+### 👨‍🏫 Student-Faculty Ratio
+
+**Description:** Examines the variation in student-to-faculty ratios among colleges.
+
+<p align="center">
+  <img src="img/Student Faculty Ratio.png" alt="Student Faculty Ratio" width="80%">
+</p>
+
+---
+
+### 🏆 Top 10% Students vs Graduation Rate
+
+**Description:** Analyzes the relationship between academically outstanding students and graduation rates.
+
+<p align="center">
+  <img src="img/Top 10% Students vs Graduation Rate.png" alt="Top 10% Students vs Graduation Rate" width="80%">
+</p>
+
+---
+
+### 🎯 Educational Expenditure vs Graduation Rate
+
+**Description:** Explores the relationship between educational expenditure and graduation rate.
+
+<p align="center">
+  <img src="img/Educational Expenditure vs Graduation Rate.png" alt="Educational Expenditure vs Graduation Rate" width="80%">
+</p>
+
+> **Note:** If your actual filename is different, replace it with the exact filename.
+
+---
+
+### 🎓 Graduation Rate Distribution
+
+**Description:** Shows how graduation rates are distributed across colleges.
+
+<p align="center">
+  <img src="img/Graduation Rate Distribution.png" alt="Graduation Rate Distribution" width="80%">
+</p>
+
+---
+
+### 💵 Distribution of Out-of-State Tuition
+
+**Description:** Visualizes the distribution of out-of-state tuition fees.
+
+<p align="center">
+  <img src="img/Distribution of Out-of-State Tuition.png" alt="Distribution of Out-of-State Tuition" width="80%">
+</p>
+
+---
+
+### 🔥 Correlation Heatmap
+
+**Description:** Displays correlations among numerical features to identify important relationships.
+
+<p align="center">
+  <img src="img/Correlation Heatmap.png" alt="Correlation Heatmap" width="80%">
+</p>
+
+---
+
+## 📌 Project Workflow
+
+This project was completed following a complete data analysis workflow:
+
+1. 📥 Downloaded the **College Dataset** from **Kaggle**.
+2. 🧹 Cleaned and preprocessed the data using **Pandas** and **NumPy** in **Google Colab**.
+3. 📊 Performed Exploratory Data Analysis (EDA).
+4. 📈 Created visualizations using **Matplotlib**.
+5. 🔍 Analyzed patterns and extracted meaningful insights from the data.
+
+---
+
+## 💡 Key Insights
+
+- 🎓 Private colleges generally have higher out-of-state tuition than public colleges.
+- 💰 Higher educational expenditure is often associated with better graduation rates.
+- 🏆 Colleges with a higher percentage of top-performing students tend to achieve higher graduation rates.
+- 👨‍🏫 Student-faculty ratio varies significantly across institutions and may impact academic outcomes.
+- 📊 The correlation heatmap highlights strong relationships between tuition, expenditure, academic quality, and graduation rate.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- 🐍 Python
+- 📓 Google Colab
+- 🐼 Pandas
+- 🔢 NumPy
+- 📈 Matplotlib
+- 📂 Kaggle Dataset
